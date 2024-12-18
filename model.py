@@ -21,10 +21,9 @@ import numpy as np
 # MEDV - Median value of owner-occupied homes in $1000's - Target variable.
 
 def train_and_save_model():
-    print ('sklearn.__version__ ' , sklearn.__version__)
-    print ('pickle.__version__ ' , pickle.format_version)
-    print ('pandas.__version__ ' , pd.__version__)
-    print ('numpy.__version__ ' , np.__version__)
+    # print ('sklearn.__version__ ' , sklearn.__version__)
+    # print ('pandas.__version__ ' , pd.__version__)
+    # print ('numpy.__version__ ' , np.__version__)
 
     data = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv")
     X = data.drop(columns=["medv"])
