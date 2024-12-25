@@ -1,4 +1,4 @@
-name: CI simple example
+name: House price estimator CI pipeline 
 
 on:
   push:
@@ -34,3 +34,4 @@ jobs:
 
             - name: Run Tests
               run: pytest   
+              
